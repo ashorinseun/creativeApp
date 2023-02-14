@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.top{
+    /* border: 1px solid rgba(197, 33, 33, 0.89); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+.nav-text span{
+    padding-left: 22px;
+    color: #9B9CA0;
+    font-size: 12px;
+}
+.top-img1{
+    width: 15px;
+    margin: 25px ;
+    align-items: center;
+    
+}
+.top-img2{
+    width: 40px;
+    margin: 12px;
+    align-items: center;
+}
+hr {
+    color: darkgray;
+    margin-top: 0px;
+    background: darkgray;
+    opacity: 0.2;
+}
+.thumbnails img{
+    width: 70px;
+    border-radius: 5px;
+    margin: 20px 9px;
+}
+.big-img{
+    width: 350px;
+    margin: 50px 10px 10px 15px;
+    border-radius: 10px;
+    
+}
+.main-cotainer{
+    display: flex;
+}
+.container{
+    padding-left: 50px;
+}
+.down{
+    padding: 40px;
+    margin: 40px;
+}
+.one{
+    padding: 30px;
+    /* line-height: 40px; */
+}
+.sneakers{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF7D1B;
+    padding-bottom: 0.7rem;
+}
+.lower-text{
+    line-height: 20px;
+    font-size: 12px;
+    color: #939498;
+    margin-top: 20px;
+}
+.price{
+    display: flex;
+    padding-top: 20px;
+}
+.price h1{
+    font-size: 22px;
+}
+.price h3{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FDF3E4;
+    border-radius: 5px;
+    margin: 5px 22px;
+    width: 30px;
+    justify-content: center;
+    padding: 1px 2px;
+    align-items: start;
+    color: #FF7D1B;
+}
+.del-price{
+    margin-top: 12px;
+    color: #C3C5CA;
+    opacity: 0.2px;
+    font-size: 15px;
+}
+.math{
+    display: flex;
+    gap: 30px;
+    background-color: #F7F8FD;
+    width: 40%;
+    font-weight: bold;
+    padding: 12px 15px;
+    justify-content: center;
+    align-self: center;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.minus{
+    padding-bottom: 3px;
+}
+.price-btn{
+    display: flex;
+    gap: 25px;
+}
+.add-to-cart{
+     display: flex;
+    gap: 20px;
+    background-color: #FF7D1B;
+    color: white;
+    width: 50%;
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    align-self: center;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.cart-btn{
+    width: 10px;
+    height: 10px;
+    color: white;
+}
